@@ -4,4 +4,4 @@ target_link_libraries(asound_module_pcm_tads asound)
 
 add_definitions(-DPIC)
 
-install(TARGETS asound_module_pcm_tads LIBRARY DESTINATION /usr/lib/x86_64-linux-gnu/alsa-lib/)
+install(TARGETS asound_module_pcm_tads LIBRARY DESTINATION alsa-lib)
